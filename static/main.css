@@ -1,0 +1,39 @@
+body{
+     background: linear-gradient(90deg, #649d9d, #0a5178);
+}
+
+h1, h2, h3, h4, h5, p, span, strike{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.task-container{
+    max-width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0 14px 28px black;
+    margin: 100px auto 100px auto ;
+
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#form-wrapper{
+    position: -webkit-sticky;
+    position: sticky;
+    border-bottom: 1px solid black;
+    padding: 40px;
+    box-shadow: 0 3px 8px black;
+}
+
+.flex-wrapper{
+    display: flex;
+}
+
+.task-wrapper{
+    color: #686868;
+    border-bottom: 1px solid black;
+    margin: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
